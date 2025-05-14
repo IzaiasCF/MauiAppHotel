@@ -1,0 +1,47 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobreDev"
+             Title="SobreDev"
+             BackgroundColor="White">
+
+    <VerticalStackLayout Padding="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         Spacing="20">
+
+        <Label Text="Sobre os Desenvolvedores:"
+               FontSize="30"
+               TextColor="DarkBlue"
+               HorizontalOptions="Center" />
+
+        <Frame Padding="20"
+               CornerRadius="10"
+               BackgroundColor="#eeeeee"
+               HasShadow="True">
+
+            <VerticalStackLayout Spacing="10"
+                                 HorizontalOptions="Center">
+
+                <Label Text="Andressa Alves" 
+                       FontSize="Medium"
+                       TextColor="Blue"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Izaias Correa Filho" 
+                       FontSize="Medium"
+                       TextColor="Blue"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Versão: 1.3"
+                       FontSize="Medium"
+                       TextColor="Blue"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Ano: 2025"
+                       FontSize="Small"
+                       TextColor="Blue"
+                       HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
