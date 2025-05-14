@@ -21,9 +21,9 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            new NavigationPage(new Views.SobreDev());
+            await Navigation.PushAsync(new Views.SobreDev());
         }
     }
 
