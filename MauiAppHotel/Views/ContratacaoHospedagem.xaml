@@ -9,7 +9,7 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
         <Label 
-            Text="Cáculo da Diária"
+            Text="Cálculo da Diária"
             FontFamily="Kalam"
             FontSize="50"
             TextColor="{StaticResource Primary}"/>
