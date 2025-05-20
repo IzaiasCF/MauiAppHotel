@@ -2,21 +2,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.SobreDev"
              Title="Desenvolvedores"
-             BackgroundColor="White">
+             BackgroundColor="CadetBlue">
 
-    <VerticalStackLayout Padding="20"
+    <VerticalStackLayout Padding="05"
                          VerticalOptions="CenterAndExpand"
                          HorizontalOptions="CenterAndExpand"
                          Spacing="20">
 
         <Label Text="Sobre os Desenvolvedores:"
-               FontSize="30"
-               TextColor="DarkBlue"
+               FontSize="25"
+               TextColor="Black"
                HorizontalOptions="Center" />
 
         <Frame Padding="20"
                CornerRadius="10"
-               BackgroundColor="#eeeeee"
+               BackgroundColor="Goldenrod"
                HasShadow="True">
 
             <VerticalStackLayout Spacing="10"
