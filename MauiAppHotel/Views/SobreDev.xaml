@@ -2,37 +2,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.SobreDev"
              Title="Desenvolvedores"
-             BackgroundColor="CadetBlue">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Orange">
 
     <VerticalStackLayout Padding="05"
                          VerticalOptions="CenterAndExpand"
                          HorizontalOptions="CenterAndExpand"
                          Spacing="20">
 
-        <Label Text="Sobre os Desenvolvedores:"
+        <Label Text="Sobre o Desenvolvedor:"
                FontSize="25"
                TextColor="Black"
                HorizontalOptions="Center" />
 
         <Frame Padding="20"
                CornerRadius="10"
-               BackgroundColor="Goldenrod"
+               BackgroundColor="Yellow"
                HasShadow="True">
 
             <VerticalStackLayout Spacing="10"
                                  HorizontalOptions="Center">
-
-                <Label Text="Andressa Alves" 
-                       FontSize="Medium"
-                       TextColor="Blue"
-                       HorizontalTextAlignment="Center"/>
 
                 <Label Text="Izaias Correa Filho" 
                        FontSize="Medium"
                        TextColor="Blue"
                        HorizontalTextAlignment="Center"/>
 
-                <Label Text="Versão: 1.3"
+                <Label Text="Versão: 1.0"
                        FontSize="Medium"
                        TextColor="Blue"
                        HorizontalTextAlignment="Center"/>
