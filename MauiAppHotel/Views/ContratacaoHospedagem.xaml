@@ -83,11 +83,11 @@
                 <Button Text="Avançar" Clicked="Button_Clicked_1"
                         Padding="05" 
                         Margin="10"
-                        TextColor="{StaticResource Magenta}"/>
+                        TextColor="{StaticResource White}"/>
                 <Button Text="Sobre" Clicked="Button_Clicked"
                         Padding="05" 
                         Margin="10"
-                        TextColor="{StaticResource Magenta}"/>
+                        TextColor="{StaticResource White}"/>
 
             </VerticalStackLayout>
             
