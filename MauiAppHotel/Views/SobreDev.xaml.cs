@@ -11,7 +11,7 @@ public partial class SobreDev : ContentPage
     {
         try
         {
-            Navigation.PushAsync(new HospedagemContratada());
+            Navigation.PopAsync();
         }
         catch (Exception ex)
         {
