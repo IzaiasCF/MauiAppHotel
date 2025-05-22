@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.HospedagemContratada"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="{StaticResource White}">
+             BackgroundColor="{StaticResource Black}">
     
-    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+    <VerticalStackLayout VerticalOptions="Center">
 
         <Label Text="Suíte Super Luxo"
-               TextColor="{StaticResource Primary}"
+               TextColor="{StaticResource White}"
                FontFamily="Open"
                FontSize="40"
                HorizontalTextAlignment="Center"/>
@@ -17,14 +17,12 @@
             <HorizontalStackLayout>
                 <HorizontalStackLayout>
                     <Label Text="Adultos: " />
-                    <Label Text="2" TextColor="{StaticResource Primary}" />
+                    <Label Text="2" TextColor="{StaticResource Gray500}" />
                 </HorizontalStackLayout>
-            </HorizontalStackLayout>
-                    
-            <HorizontalStackLayout>
+                                
                 <HorizontalStackLayout>
                     <Label Text="Crianças: " />
-                    <Label Text="1" TextColor="{StaticResource Primary}" />
+                    <Label Text="1" TextColor="{StaticResource Gray500}" />
                 </HorizontalStackLayout>
             </HorizontalStackLayout>
         </Frame>
@@ -51,6 +49,7 @@
 
         <Button Text="Voltar" 
                 HorizontalOptions="Center"
+                TextColor="White"
                 Clicked="Button_Clicked"/>
 
     </VerticalStackLayout>

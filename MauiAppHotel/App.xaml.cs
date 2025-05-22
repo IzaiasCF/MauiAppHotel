@@ -4,27 +4,27 @@ namespace MauiAppHotel
 {
     public partial class App : Application
     {
-        public List<quarto> lista_quartos = new List<quarto>
+        public List<Quarto> lista_quartos = new List<Quarto>
         {
-            new quarto()
+            new Quarto()
             {
                 Descricao = "Suíte Super Luxo",
                 ValorDiariaAdulto = 110.00,
                 ValorDiariaCrianca = 55.00
             },
-            new quarto()
+            new Quarto()
             {
                 Descricao = "Suíte Luxo",
                 ValorDiariaAdulto = 80.00,
                 ValorDiariaCrianca = 40.00
             },
-            new quarto()
+            new Quarto()
             {
                 Descricao = "Suíte Single",
                 ValorDiariaAdulto = 500.00,
                 ValorDiariaCrianca = 25.00
             },
-            new quarto()
+            new Quarto()
             {
                 Descricao = "Suíte Básica",
                 ValorDiariaAdulto = 25.00,
