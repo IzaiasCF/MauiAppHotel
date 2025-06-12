@@ -69,20 +69,22 @@
 
                         <HorizontalStackLayout>
                             <Label Text="Check-In" />
-                            <DatePicker x:Name="dtcpk_checkin"
+                            <DatePicker x:Name="dtpck_checkin"
                                         Format="dd/MM/yyyy" />
                         </HorizontalStackLayout>
 
                         <HorizontalStackLayout>
                             <Label Text="Check-Out" />
-                            <DatePicker x:Name="dtcpk_checkout"
+                            <DatePicker x:Name="dtpck_checkout"
                                         Format="dd/MM/yyyy" />
                         </HorizontalStackLayout>
 
                     </VerticalStackLayout>
 
                 </Frame>
-                
+
+                <Button Text="Avançar" />
+
             </VerticalStackLayout>
         </Frame>
 
