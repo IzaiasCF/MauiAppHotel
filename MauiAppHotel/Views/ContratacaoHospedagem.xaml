@@ -9,26 +9,24 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
 
-        <Image
-             Source="hotel.png"
-             HeightRequest="100"
-             Aspect="AspectFit"
-             SemanticProperties.Description="dot net bot in a race car number eight" />
-
-        <Label 
-            Text="Hotel Fazenda"
-            FontFamily="Montserrat"
-            FontSize="40"
-            TextColor="{StaticResource Primary}"
-
+        <Label
             Text="Calculo da Diaria"
             FontFamily="Montserrat"
-            FontSize="20"
-            TextColor="{StaticResource Primary}" />
+            FontSize="40"
+            TextColor="{StaticResource Black}" />
 
         <Frame Padding="10">
             <VerticalStackLayout>
-                
+                <Grid RowDefinitions="Auto, Auto"
+                      ColumnDefinitions="*, *, 2*">
+
+                    <Label Grid.Row="0" Grid.Column="0"
+                           Text="Adultos" />
+
+                    <Label Grid.Row="1" Grid.Column="0"
+                         Text="Crianças" />
+
+                </Grid>
             </VerticalStackLayout>
         </Frame>
 
