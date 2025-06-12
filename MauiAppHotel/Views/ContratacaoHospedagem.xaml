@@ -16,7 +16,7 @@
              SemanticProperties.Description="dot net bot in a race car number eight" />
 
         <Label
-            Text="Calculo da Diaria"
+            Text="Cálculo da Diária"
             FontFamily="Montserrat"
             FontSize="40"
             TextColor="{StaticResource Black}" />
@@ -56,16 +56,16 @@
                              Increment="1" />
                 </Grid>
 
-                <Label Text="Escolha sua Suite" />
+                <Label Text="Escolha sua Suíte" />
 
                 <Picker x:Name="pck_quarto"
-                        Title="Selecione sua acomodacao" />
+                        Title="Selecione sua acomodação"/>
 
                 <Frame Padding="10"
                        Margin="10">
                     
                     <VerticalStackLayout>
-                        <Label Text="Periodoa da Estadia" />
+                        <Label Text="Período da Estadia" />
 
                         <HorizontalStackLayout>
                             <Label Text="Check-In" />
