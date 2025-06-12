@@ -11,7 +11,7 @@
             Spacing="25">
             <Image
                 Source="hotel.png"
-                HeightRequest="120"
+                HeightRequest="100"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 

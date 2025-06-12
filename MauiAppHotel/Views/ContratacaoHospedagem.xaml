@@ -9,6 +9,12 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
 
+        <Image
+             Source="hotel.png"
+             HeightRequest="100"
+             Aspect="AspectFit"
+             SemanticProperties.Description="dot net bot in a race car number eight" />
+
         <Label
             Text="Calculo da Diaria"
             FontFamily="Montserrat"
@@ -23,8 +29,30 @@
                     <Label Grid.Row="0" Grid.Column="0"
                            Text="Adultos" />
 
+                    <Label Grid.Row="0" Grid.Column="1"
+                           TextColor="{StaticResource Primary}"
+                           Text="{Binding Value}"
+                           BindingContext="{x:Reference stp_adultos}" />
+
+                    <Stepper Grid.Row="0" Grid.Column="2"
+                             x:Name="stp_adultos"
+                             Minimum="0"
+                             Maximum="10"
+                             Increment="1" />
+
                     <Label Grid.Row="1" Grid.Column="0"
                          Text="Crianças" />
+
+                    <Label Grid.Row="1" Grid.Column="1"
+                           TextColor="{StaticResource Primary}"
+                           Text="{Binding Value}"
+                           BindingContext="{x:Reference stp_criancas}" />
+
+                    <Stepper Grid.Row="1" Grid.Column="2"
+                             x:Name="stp_criancas"
+                             Minimum="0"
+                             Maximum="10"
+                             Increment="1" />
 
                 </Grid>
             </VerticalStackLayout>
