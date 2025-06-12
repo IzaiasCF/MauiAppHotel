@@ -40,8 +40,9 @@
                              Maximum="10"
                              Increment="1" />
 
+                    
                     <Label Grid.Row="1" Grid.Column="0"
-                         Text="Crianças" />
+                           Text="Crianças" />
 
                     <Label Grid.Row="1" Grid.Column="1"
                            TextColor="{StaticResource Primary}"
@@ -53,8 +54,15 @@
                              Minimum="0"
                              Maximum="10"
                              Increment="1" />
-
                 </Grid>
+
+                <Label Text="Escolha sua Suite" />
+
+                <Picker x:Name="pck_quarto"
+                        Title="Selecione sua acomodacao" />
+
+                
+                
             </VerticalStackLayout>
         </Frame>
 
