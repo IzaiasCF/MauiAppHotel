@@ -61,7 +61,28 @@
                 <Picker x:Name="pck_quarto"
                         Title="Selecione sua acomodacao" />
 
-                
+                <Frame Padding="10"
+                       Margin="10">
+                    
+                    <VerticalStackLayout>
+                        <Label Text="Periodoa da Estadia" />
+
+                        <HorizontalStackLayout>
+                            <Label Text="Check-In" />
+                            <DatePicker x:Name="dtcpk_checkin"
+                                        Format="dd/MM/yyyy" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <Label Text="Check-Out" />
+                            <DatePicker x:Name="dtcpk_checkout"
+                                        Format="dd/MM/yyyy" />
+                        </HorizontalStackLayout>
+
+
+                    </VerticalStackLayout>
+
+                </Frame>
                 
             </VerticalStackLayout>
         </Frame>
