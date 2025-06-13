@@ -24,19 +24,19 @@
                     HorizontalTextAlignment="Center"/>
 
         <Frame Margin="10">
-            <HorizontalStackLayout>
+            <StackLayout HorizontalOptions="Center" Orientation="Vertical">
                 
-                <HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
                     <Label Text="Adultos: " TextColor="{StaticResource Black}"  />
                     <Label Text="{Binding QntAdultos}" TextColor="{StaticResource Primary}" />
                 </HorizontalStackLayout>
 
-                <HorizontalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
                     <Label Text="Crianças: " TextColor="{StaticResource Black}"  />
                     <Label Text="{Binding QntCriancas}" TextColor="{StaticResource Primary}" />
                 </HorizontalStackLayout>
 
-            </HorizontalStackLayout>
+            </StackLayout>
         </Frame>
 
         <Frame Margin="10">
@@ -55,7 +55,7 @@
         </Frame>
 
         <Frame Margin="10">
-            <HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center">
 
                 <Label Text="Valor Total:  " 
                        TextColor="{StaticResource Black}" />
