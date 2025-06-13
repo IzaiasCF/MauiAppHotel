@@ -13,7 +13,9 @@ public partial class ContratacaoHospedagem : ContentPage
         {
             Navigation.PushAsync(new HospedagemContratada());
 
-        } catch (Exception ex) {
+        }
+        catch (Exception ex)
+        {
             DisplayAlert("Ops!", ex.Message, "Ok");
         }
     }
