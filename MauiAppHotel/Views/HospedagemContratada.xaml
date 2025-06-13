@@ -17,7 +17,7 @@
                 Source="hotel.png"
                 HeightRequest="100" />
 
-        <Label Text="{Binding QuartoSelecionado Descricao}"
+        <Label Text="{Binding QuartoSelecionado.Descricao}"
                     TextColor="NavajoWhite"
                     FontFamily="Montserrat"
                     FontSize="30"

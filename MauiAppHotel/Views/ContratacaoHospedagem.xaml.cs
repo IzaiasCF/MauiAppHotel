@@ -26,9 +26,19 @@ public partial class ContratacaoHospedagem : ContentPage
     {
         try
         {
-            Hospedagem h = new Hospedagem();
+            Hospedagem h = new Hospedagem
+            {
+                QuartoSelecionado = (Quarto)pck_quarto.SelectedItem,
+                QntAdultos = Convert.ToInt32(stp_adultos.Value),
+                QntCriancas = Convert.ToInt32(stp_criancas.Value),
+                DataCheckIn = dtpck_checkin.Date,
+                DataCheckOut = dtpck_checkout.Date,
+            };
 
-            await Navigation.PushAsync(new HospedagemContratada());
+            await Navigation.PushAsync(new HospedagemContratada()
+            {
+                BindingContext = h
+            });
 
         }
         catch (Exception ex)
