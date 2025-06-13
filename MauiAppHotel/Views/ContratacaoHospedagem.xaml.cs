@@ -32,4 +32,14 @@ public partial class ContratacaoHospedagem : ContentPage
             DisplayAlert("Ops!", ex.Message, "Ok");
         }
     }
+
+    private void dtpck_checkin_DateSelected(object sender, DateChangedEventArgs e)
+    {
+        DatePicker elemento = sender as DatePicker;
+
+        DateTime data_selecionada_checkin = elemento.Date;
+
+        dtpck_checkout.MinimumDate = data_selecionada_checkin.AddDays(1);
+        dtpck_checkout.MaximumDate = data_selecionada_checkin.AddMonths(6);
+    }
 }
