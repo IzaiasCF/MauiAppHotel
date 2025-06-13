@@ -64,7 +64,12 @@
 
             </HorizontalStackLayout>
         </Frame>
-        
+
+        <Button Text="Voltar" 
+                HorizontalOptions="Center"
+                TextColor="NavajoWhite"
+                Clicked="Button_Clicked" />
+
     </VerticalStackLayout>
     
-</ContentPage>
+ </ContentPage>
