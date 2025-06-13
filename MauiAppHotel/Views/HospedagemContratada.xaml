@@ -57,8 +57,10 @@
         <Frame Margin="10">
             <HorizontalStackLayout>
 
-                <Label Text="Valor Total:  " TextColor="{StaticResource Black}" />
-                <Label Text=" R$ 3.670,00" TextColor="{StaticResource Primary}" />
+                <Label Text="Valor Total:  " 
+                       TextColor="{StaticResource Black}" />
+                <Label Text=" R$ 3.670,00" 
+                       TextColor="{StaticResource Primary}" />
 
             </HorizontalStackLayout>
         </Frame>
