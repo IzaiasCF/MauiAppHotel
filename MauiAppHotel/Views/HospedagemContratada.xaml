@@ -57,10 +57,8 @@
         <Frame Margin="10">
             <HorizontalStackLayout HorizontalOptions="Center">
 
-                <Label Text="Valor Total:  " 
-                       TextColor="{StaticResource Black}" />
-                <Label Text="{Binding ValorTotal, StringFormat='{}{0:c}'}" 
-                       TextColor="{StaticResource Primary}" />
+                <Label Text="Valor Total:  " TextColor="{StaticResource Black}" />
+                <Label Text="{Binding ValorTotal, StringFormat='{}{0:c}'}" TextColor="{StaticResource Primary}" />
 
             </HorizontalStackLayout>
         </Frame>
