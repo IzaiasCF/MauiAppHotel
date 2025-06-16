@@ -28,16 +28,17 @@
 
             <Label
                 Text="Tranquilidade, seguraça e conforto..."
-                TextColor="NavajoWhite"
-                FontFamily="Montserrat.Bold"
-                FontSize="15"/>
+                FontFamily="kalam"
+                FontSize="15"
+                TextColor="NavajoWhite"/>
 
             <Button Text="Avançar"
                     HorizontalOptions="Center"
                     Clicked="Button_Clicked"/>
 
             <Button Text="Sobre"
-                    HorizontalOptions="Center"/>
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked_1"/>
 
         </VerticalStackLayout>
     </ScrollView>

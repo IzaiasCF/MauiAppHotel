@@ -11,6 +11,8 @@ public partial class ContratacaoHospedagem : ContentPage
     {
         InitializeComponent();
 
+        NavigationPage.SetHasNavigationBar(this, false);
+
         PropriedadesApp = (App)Application.Current;
 
         pck_quarto.ItemsSource = PropriedadesApp.lista_quartos;
