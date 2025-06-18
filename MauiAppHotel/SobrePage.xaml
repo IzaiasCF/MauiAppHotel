@@ -1,49 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppHotel.SobrePage"
-             NavigationPage.HasNavigationBar="False">
+<ContentPage
+    x:Class="MauiAppHotel.SobrePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3" />
-            <GradientStop Color="Blue" Offset="1.1" />
+            <GradientStop Offset="0.3" Color="Purple" />
+            <GradientStop Offset="1.1" Color="Blue" />
         </LinearGradientBrush>
     </ContentPage.Background>
 
-    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+    <VerticalStackLayout
+        Padding="20"
+        Spacing="15"
+        VerticalOptions="Center">
 
         <Image
-                Source="hotel.png"
-                HeightRequest="100"
-                HorizontalOptions="Center" />
+            HeightRequest="100"
+            HorizontalOptions="Center"
+            Source="hotel.png" />
 
-        <Label Text="Desenvolvedor:"
-               FontAttributes="Bold"
-               FontSize="20"
-               TextColor="Gray"
-               HorizontalOptions="Center" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="Desenvolvedor:"
+            TextColor="Gray" />
 
-        <Label Text="Izaias Correa Filho"
-               FontSize="16"
-               TextColor="Gray"
-               HorizontalOptions="Center" />
+        <Label
+            FontSize="16"
+            HorizontalOptions="Center"
+            Text="Izaias Correa Filho"
+            TextColor="Gray" />
 
-        <Label Text="Email: izaiascorreafilho@email.com"
-               FontSize="14"
-               TextColor="Gray"
-               HorizontalOptions="Center" />
+        <Label
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Email: izaiascorreafilho@email.com"
+            TextColor="Gray" />
 
-        <Label Text="Projeto Desenvolvido em .NET MAUI"
-               FontSize="14"
-               TextColor="Gray"
-               HorizontalOptions="Center" />
+        <Label
+            FontSize="14"
+            HorizontalOptions="Center"
+            Text="Projeto Desenvolvido em .NET MAUI"
+            TextColor="Gray" />
 
-        <Button Text="Voltar"
-                Padding="10"
-                Margin="20"
-                HorizontalOptions="Center"
-                Clicked="Button_Clicked" />
+        <Button
+            Margin="20"
+            Padding="10"
+            Clicked="Button_Clicked"
+            HorizontalOptions="Center"
+            Text="Voltar" />
 
     </VerticalStackLayout>
 
