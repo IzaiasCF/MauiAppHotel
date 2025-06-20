@@ -15,7 +15,7 @@ namespace MauiAppHotel
              },
 
              new Quarto()
-            {
+             {
                 Descricao = "Suíte Luxo",
                 ValorDiariaAdulto = 80.00,
                 ValorDiariaCrianca = 40.00
