@@ -11,9 +11,10 @@
         </LinearGradientBrush>
     </ContentPage.Background>
 
-    <VerticalStackLayout VerticalOptions="CenterAndExpand"
-                         Padding="10"
-                         Spacing="10">
+    <VerticalStackLayout 
+        VerticalOptions="CenterAndExpand"
+        Padding="10"
+        Spacing="10">
 
         <Image
              Source="hotel.png"
